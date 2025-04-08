@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const DATA_FILE = './zones.json';
+const DATA_FILE = './server.json';
 
 // GET zones
 app.get('/zones.json', (req, res) => {
